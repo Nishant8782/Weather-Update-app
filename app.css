@@ -10,7 +10,7 @@ body{
     justify-content: center;
     align-items: center;
     min-height:100vh;
-    background-image: url("background.avif");
+    background-color: #fff;
     background-size: cover;
     background-position: center;
 }
@@ -24,7 +24,7 @@ body{
     border: 2px solid rgba(255, 255, 255, .2);
     border-radius: 16px;
     padding: 20px;
-    color:#fff;
+    color:black;
     box-shadow: 10px 10px 20px black;
     
     
@@ -54,7 +54,7 @@ body{
     outline:none;
     border-radius: 10px;
     font-size: 22px;
-    color : #fff;
+    color : black;
     box-shadow: (2px 2px 5px black);
     font-weight: 700;
     text-transform: uppercase;
@@ -63,7 +63,7 @@ body{
 }
 
 .search-box input::placeholder {
-    color:rgb(249, 247, 247);
+    color:black;
     text-transform: capitalize;
 
 }
@@ -77,7 +77,7 @@ body{
     outline:none;
 
     font-size:28px;
-    color:#fff;
+    color:black;
     padding:0 40px 0 5px;
     cursor: pointer;
 }
